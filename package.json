@@ -1,0 +1,33 @@
+{
+  "name": "ellipsis-text-wrapper",
+  "version": "1.0.0",
+  "description": "A light-weight React component to handle texts with single and multiline ellipsis.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Devendra Saroj",
+  "keywords": [
+    "ellipsis-text-wrapper",
+    "ellipsis-text",
+    "react-ellipsis-text",
+    "multiline-ellipsis",
+    "multiline-text",
+    "multiline-text-clamp"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/devendraSaroj/outside-click-wrapper.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devendraSaroj/outside-click-wrapper.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.5",
+    "typescript": "^4.2.4"
+  }
+}
